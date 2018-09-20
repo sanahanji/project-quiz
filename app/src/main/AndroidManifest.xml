@@ -21,6 +21,22 @@
         </activity>
         <activity android:name=".Second_Ques">
         </activity>
+        <activity android:name=".third">
+        </activity>
+        <activity android:name=".fourth">
+        </activity>
+        <activity android:name=".fifth">
+        </activity>
+        <activity android:name=".sixth">
+        </activity>
+        <activity android:name=".seventh">
+        </activity>
+        <activity android:name=".eight">
+        </activity>
+        <activity android:name=".ninth">
+        </activity>
+        <activity android:name=".tenth">
+        </activity>
     </application>
 
 </manifest>
