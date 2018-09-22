@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Have you noticed changes to you appetite-either eating less or eating more ?"
+        android:text="Have you noticed changes in your appetite-either eating less or eating more ?"
         android:textSize="24sp" />
 
 
@@ -40,6 +40,16 @@
             android:text="No"
             android:textSize="24sp"
             app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="26dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Maybe"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton3"
             tools:layout_editor_absoluteX="26dp" />
 
         <RadioButton
