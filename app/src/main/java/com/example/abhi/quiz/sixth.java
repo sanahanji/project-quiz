@@ -17,7 +17,8 @@ public class sixth extends MainActivity {
         b=(Button)findViewById(R.id.sixth);
         Intent intent = getIntent();
         value= intent.getIntExtra("Values",0);
-        Toast.makeText(this, ""+value, Toast.LENGTH_SHORT).show();        b.setOnClickListener(new View.OnClickListener() {
+        //Toast.makeText(this, ""+value, Toast.LENGTH_SHORT).show();
+        b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radiogroup);
@@ -25,13 +26,13 @@ public class sixth extends MainActivity {
                 switch (selectedId)
                 {
                     case R.id.radioButton2:
-                        value1=1;
+                        value1=10;
                         break;
                     case R.id.radioButton3:
-                        value1=2;
+                        value1=20;
                         break;
                     case R.id.radioButton4:
-                        value1=3;
+                        value1=30;
                         break;
                 }
                 value2= value1+value;

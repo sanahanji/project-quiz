@@ -30,13 +30,13 @@ public class First_Ques extends MainActivity {
                 switch (selectedId)
                 {
                     case R.id.radioButton2:
-                        value=1;
+                        value=10;
                         break;
                     case R.id.radioButton3:
-                        value=2;
+                        value=20;
                         break;
                     case R.id.radioButton4:
-                        value=3;
+                        value=30;
                         break;
                 }
                 Intent i=new Intent(First_Ques.this,Second_Ques.class);

@@ -14,10 +14,10 @@ public class tenth extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tenth);
-        b= (Button)findViewById(R.id.button2);
+        b= (Button)findViewById(R.id.but);
         Intent intent = getIntent();
         value= intent.getIntExtra("Values",0);
-        Toast.makeText(this, ""+value, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, ""+value, Toast.LENGTH_SHORT).show();
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,18 +26,22 @@ public class tenth extends MainActivity {
                 switch (selectedId)
                 {
                     case R.id.radioButton2:
-                        value1=1;
+                        value1=10;
                         break;
                     case R.id.radioButton3:
-                        value1=2;
+                        value1=20;
                         break;
                     case R.id.radioButton4:
-                        value1=3;
+                        value1=30;
                         break;
                 }
                 value2= value1+value;
+                Toast.makeText(tenth.this,""+value2,Toast.LENGTH_SHORT).show();
+
+
             }
         });
 
     }
+
 }

@@ -17,7 +17,7 @@ public class third extends MainActivity {
         b2=(Button)findViewById(R.id.third2);
         Intent intent = getIntent();
         value= intent.getIntExtra("Values",0);
-        Toast.makeText(this, ""+value, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, ""+value, Toast.LENGTH_SHORT).show();
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,13 +26,13 @@ public class third extends MainActivity {
                 switch (selectedId)
                 {
                     case R.id.radioButton2:
-                        value1=1;
+                        value1=10;
                         break;
                     case R.id.radioButton3:
-                        value1=2;
+                        value1=20;
                         break;
                     case R.id.radioButton4:
-                        value1=3;
+                        value1=30;
                         break;
                 }
                 value2= value1+value;
